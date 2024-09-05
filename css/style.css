@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Menu / Navegador*/
+
+header{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header nav{
+    margin: 25px;
+    padding: 0px, 24px, 0px, 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.pesquisa, .menu-direito{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.menu-direito, .menu-esquerdo{
+    width: 146px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pesquisa input{
+    font-size: 20px;
+    width: 404px;
+    border: 1px 0px 0px 0px;
+    padding: 4px;
+
+}
+
+.pesquisa{
+    background: #F8F8F8;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+/*Video Pricipais*/
+
+.video-principal{
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.titulo-video{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#avatar-canal{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.video-principal nav div span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: top;
+    margin: 15px;
+}
+
+.video-principal nav div span p{
+    padding: 5px;
+}
+
+.video-principal nav div button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: #CC0000;
+    display: inline-block;
+    margin: 15px;
+    align-self: top;
+}
+
+
+/*Videos recomendados*/
+
+aside{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 50px;
+
+}
+
+
+.video{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.video span{
+    width: 250px;
+    text-align: start;
+    margin: 5px;
+}
+
+.video span p{
+    margin: 0px;
+}
+
+.video img{
+    display: flex;
+    justify-content: left;
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+}
